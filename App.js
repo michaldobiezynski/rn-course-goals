@@ -7,7 +7,11 @@ export default function App() {
       <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
         <TextInput
           placeholder='Course Goal'
-          style={{ borderBottomColor: 'black', borderBottomWidth: 1 }}
+          style={{
+            width: 200,
+            borderColor: 'black',
+            borderWidth: 1,
+          }}
         />
         <Button title='Add' />
       </View>
